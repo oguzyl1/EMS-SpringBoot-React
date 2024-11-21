@@ -1,0 +1,18 @@
+/* Sayfa düzeni için */
+.app-container {
+  display: flex;
+  flex-direction: column; /* Üst üste hizalama */
+  min-height: 100vh; /* Sayfa yüksekliğini tarayıcı boyutuna göre ayarla */
+}
+
+.content {
+  flex: 1; /* İçeriği esnet ve boş alanı doldur */
+}
+
+/* Footer için */
+.footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
